@@ -16,7 +16,10 @@
     "url": "git+https://github.com/madoos/yo-helper.git"
   },
   "keywords": [
-    "lib"
+    "yo",
+    "yeoman",
+    "helper",
+    "madoos"
   ],
   "author": "Maurice Ronet Dominguez",
   "license": "MIT",
