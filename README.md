@@ -51,8 +51,8 @@ const yeoman = require('yeoman-generator');
 const generatorName = 'some-generator-name';
 // Now questions is a function that allows to obtain the context of yeoman
 const questions = function(){
-    const appName = {type: 'input', name: 'name',message: 'Your project name',default: this.appname}
-    return [appName];
+    const moduleName = {type: 'input', name: 'name',message: 'Your project name',default: this.appname}
+    return [moduleName];
 };
 const templatePath = require('path').join(__dirname, './templates');
 
