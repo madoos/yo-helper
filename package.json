@@ -1,6 +1,6 @@
 {
   "name": "madoos-yo-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Allows abstract writing of templates for yeoman generators.",
   "main": "index.js",
   "scripts": {
