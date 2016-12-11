@@ -1,0 +1,3 @@
+# !bin/bash
+
+./node_modules/.bin/standard -c config.eslintrc -f checkstyle ./**/*.js  > ./test/report/linter-report.xml

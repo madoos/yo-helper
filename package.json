@@ -1,0 +1,34 @@
+{
+  "name":  "madoos-yo-helper",
+  "version": "0.0.1",
+  "description": "Allows abstract writing of templates for yeoman generators.",
+  "main": "index.js",
+  "scripts": {
+    "test:linter:show": "./sh/test/linter-show",
+    "test:unit:show": "./sh/test/unit-show",
+    "test:cover:show": "./sh/test/cover-show",
+    "test:linter:report": "./sh/test/linter-report",
+    "test:unit:report": "./sh/test/unit-report",
+    "test:cover:report": "./sh/test/cover-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madoos/yo-helper.git"
+  },
+  
+  "keywords": [
+    "lib"
+  ],
+  "author": "Maurice Ronet Dominguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madoos/yo-helper.git/issues"
+  },
+  "homepage": "https://github.com/madoos/yo-helper.git#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}
