@@ -14,12 +14,7 @@ In the generator index:
 const yeoman = require('yeoman-generator');
 
 const generatorName = 'madoos-node-module';
-const questions = [{
-        type: 'input',
-        name: 'name',
-        message: 'Your project name',
-        default: null
-      }];
+const questions = [{type: 'input', name: 'name',message: 'Your project name',default: null}];
       
 const templatePath = require('path').join(__dirname, './templates');
 
