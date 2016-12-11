@@ -1,5 +1,5 @@
 {
-  "name":  "madoos-yo-helper",
+  "name": "madoos-yo-helper",
   "version": "0.0.1",
   "description": "Allows abstract writing of templates for yeoman generators.",
   "main": "index.js",
@@ -15,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/madoos/yo-helper.git"
   },
-  
   "keywords": [
     "lib"
   ],
@@ -30,5 +29,9 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yosay": "^1.2.1"
   }
 }
