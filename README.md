@@ -9,7 +9,7 @@ Allows abstract writing of templates for yeoman generators.
 
 ## Considerations
 
- * Transforms all files with '_' in their name to '.', for example `_gitignore` to `.gitignore`
+ * Transforms all files with `_` in their name to `.`, for example `_gitignore` to `.gitignore`
 
 ## Functions
 
